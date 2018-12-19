@@ -1,0 +1,498 @@
+/*
+Theme Name: ali kabeer
+Author: Ali Kabeer
+Author URI:
+Version: 1.0
+*/
+
+
+body{
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  margin:0;
+  background-color:white;
+}
+
+.site-header{
+    margin-top:0;
+    overflow:hidden;
+    padding:0;
+}
+
+header{
+    color:black;
+    width:100%;
+    transition:0.5s;
+    padding:2vw;
+    position:fixed;
+    background-image: linear-gradient(to bottom right, #cc33ff, #00ffcc);
+}
+
+header.black{
+	box-shadow: 0px 1px 15px grey;
+	padding:0.5vw;
+}
+
+.burger{
+    color:white;
+    font-size:5vw;
+    position:relative;
+    float:right;
+    display:none;
+}
+
+span{
+    color:rgba(255,220,0);
+}
+
+.current-menu-item > a{
+color: rgba(255,220,0)!important;
+}
+
+.art{
+    margin-left:10%;
+	box-shadow: 0px 1px 5px grey;
+    width:55%;
+    float:left;
+    border-radius:15px;
+    overflow:hidden;
+    padding:1vw;
+    margin-top:2vw;
+}
+
+.readmore a{
+    font-size:1.5vw;
+    font-family: 'Lora', serif;
+    border:1px solid black;
+    padding:0.5vw;
+    text-decoration:none;
+    color:black;
+    float:right;
+    transition:0.5s;
+    margin-top:0;
+}
+
+.readmore a:hover{
+    background-color:black;
+    color:white;
+}
+
+.pag{
+    padding:20px;
+    margin-top:20px;
+    float:right;
+    font-size:18px;
+    text-decoration:none;
+    color:black;
+}
+
+span.page-numbers.current{
+    color:white;
+    background-color:black;
+}
+
+.page-numbers{
+    text-decoration:none;
+    padding:1vw;
+    color:black;
+    transition:0.5s;
+    border-radius:10px;
+    border:1px solid black;
+}
+
+.page-numbers:hover{
+    color:white;
+    background-color:black;
+}
+
+
+.active{
+    display:block;
+}
+
+.cont{
+    margin-left:2%;
+    width:65%;
+    padding-bottom:20px;
+    margin-top:10vw;
+    float:left;
+}
+
+.left{
+	box-shadow: 0px 1px 5px grey;
+    width:100%;
+    border-radius:15px;
+    float:left;
+    overflow:hidden;
+    padding:1vw;
+    margin-top:2vw;
+}
+
+
+.right{
+    width:25%;
+    float:right;
+    padding:2vw;
+    margin-top:10vw;
+}
+
+
+#s{
+	border:none;
+	background:none;
+	color:black;
+	line-height:40px;
+	font-size:16px;
+	width:75%;
+	float:left;
+	outline:none;
+	border-radius:50px;
+	padding-left:10px;
+}
+
+#searchsubmit{
+	height:40px;
+	width:40px;
+	color:white;
+	background:none;
+	font-size:1.5vw;
+	border-radius:50px;
+	border:none;
+	margin-left:5px;
+	line-height:40px;
+	float:left;
+    color:black;
+}
+
+
+#searchsubmit:hover{
+    cursor:pointer;
+    color:blue;
+}
+
+.wrapper{
+	height:40px;
+	width:70%;
+	padding:10px;
+	background:white;
+	box-shadow: 0px 1px 5px grey;
+	border-radius:50px;
+}
+
+.wrapper:hover{
+	box-shadow: 0px 1px 5px blue;
+}
+
+.art{
+    margin-top:10vw;
+}
+
+.art img{
+    padding-bottom:2vw;
+}
+
+.pic{
+    width:50%;
+    overflow:none;
+    float:left;
+    padding-right:1vw;
+}
+
+img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+
+p{
+    font-size:1.8vw;
+    font-family: 'Crimson Text', serif;
+    line-height:2.5vw;
+}
+
+.left p1{
+    text-decoration:none;
+    color:black;
+    margin-top:1vw;
+    font-size:1.5vw;
+    font-family: 'Crimson Text', serif;
+}
+
+#icon{
+    padding:0 0.5vw;
+}
+
+.left a{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+.site-header h1 a{  
+    text-decoration: none;
+    color:white;
+    margin-top:-15px;
+    position:relative;
+    float:left;
+    font-weight:none;
+    margin-left:2%;
+    font-family: 'Fjalla One', sans-serif;
+    font-size:2.5vw;
+}
+
+h2 a{  
+    font-size:2.4vw;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    color:black;
+}
+
+h2 a:hover{
+    color:#8c8c8c;
+}
+
+.site-footer{
+    width:100%;
+    float:right;
+}
+
+.top-nav{
+    padding:0;
+    margin-right:2%;
+    margin-top:-15px;
+    float:right;
+    position:relative;
+}
+
+
+.top-nav ul{
+    margin-top:10px;
+    padding:0;
+    float:left;
+}
+
+li{
+    list-style-type:none;
+    float:left;
+    padding:0 20px;
+    
+}
+
+.top-nav ul li a:link,
+.top-nav ul li a:visited{
+    text-decoration:none;
+    font-size:1.7vw;
+    padding:20px;
+    font-family:Constantia;
+    transition:0.5s;
+    color:white;
+}
+
+.top-nav ul li a:hover{
+    color:rgba(255,220,0);
+}
+
+footer{
+    float:right;
+    margin-top:5vw;
+    width:100%;
+    color:white;
+    background-color:black;
+}
+
+@media screen and (max-width:900px){
+
+.cont{
+    width:80%;
+    margin-left:10%;
+    margin-top:15vw;
+}
+
+header{
+    padding:3vw;
+}    
+
+
+.right{
+    width:100%;
+}
+
+.wrapper{
+    width:100%;
+}
+
+.sidenote{
+    width:50%;
+    margin:0 auto;
+	top:30%;
+	position:relative;
+}
+
+.art{
+    width:80%;
+    margin-top:15vw;
+}
+
+.readmore a{
+    font-size:3vw;
+}
+
+
+ul{
+    display:none;
+    padding:1vw;
+    background:white;
+    width:50%;
+    top:10%;
+    position:relative;
+    position:fixed;
+    right:0;
+    border:2vw solid #006666;
+    border-radius:20px;
+}
+
+.top-nav ul li{
+    width:100%;
+    padding:5px;
+}
+
+.top-nav ul li a:link,
+.top-nav ul li a:visited{
+    text-decoration:none;
+    color:black;
+    font-family: 'Crimson Text', serif;
+    font-size:5vw;
+}
+
+
+.burger{
+    display:block;
+    margin-top:-5px;
+    margin-right:10vw;
+    float:right;
+}
+
+.site-header h1 a{  
+    font-size:5vw;
+}
+
+.left h2 a{
+    font-size:4vw;
+}
+
+.art h2 a{
+    font-size:4vw;
+}
+
+
+.left p1{
+    font-size:2vw;
+}
+
+p1 a{
+    font-size:2vw;
+}
+
+p{
+    font-size:3vw;
+        line-height:5vw;
+}
+
+}
+
+@media screen and (max-width:700px){
+    
+
+.cont{
+    width:100%;
+    margin-left:0;
+    margin-top:20vw;
+}
+
+.wrapper{
+    width:100%;
+}
+
+#s{
+    width:60%;
+}
+
+.left{
+    width:85%;
+    margin-left:3%;
+    padding:4vw;
+}
+
+.art{
+    width:85%;
+    margin-top:20vw;
+    margin-left:3%;
+    padding:4vw;
+}
+
+.pic{
+    width:100%;
+}
+
+.site-header h1 a{  
+    font-size:8vw;
+    padding-left:2vw;
+}
+.left h2 a{
+    font-size:8vw;
+}
+
+.art h2 a{
+    font-size:8vw;
+}
+
+.left{
+    margin-top:4vw;
+}
+
+.left p1{
+    font-size:5vw;
+}
+
+p1 a{
+    font-size:5vw;
+}
+
+p{
+    font-size:5vw;
+    line-height:10vw;
+}
+
+.readmore a{
+    font-size:5vw;
+}
+
+#searchsubmit{
+ 
+    font-size:5vw;   
+}
+
+}
+@media screen and (max-width:500px){
+
+ul{
+    top:8%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
